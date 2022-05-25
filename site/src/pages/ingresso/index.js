@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { ueseState, useState } from "react"
+import { useState, useState } from "react"
 
 export default function Ingresso() {
     const [qtdInteiras, setQtdInteiras] = useState(0);

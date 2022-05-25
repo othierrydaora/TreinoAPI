@@ -12,9 +12,9 @@ export default function Home() {
                 <li><Link to='/maiorNumero'>Maior Número</Link></li>
                 <li><Link to='/soma'>Somar</Link></li>
                 <li><Link to='/dobro'>Dobro de um Número</Link></li>
+                <li><Link to='/temperatura'>Temperatura Corporal</Link></li>
+                <li><Link to='/media'>Média das Notas</Link></li>
             </ul>
-
-
 
 
         </main>
