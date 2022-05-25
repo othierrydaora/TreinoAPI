@@ -7,10 +7,9 @@ export default function Frequencia() {
     const [ car, setCar ] = useState('');
     const [ resp, setResp ] = useState('');
 
-    async function Verificar() {
-        const rst = await axios.get('http://localhost:5000/dia2/freqcaractere/:texto/'+frase+'/:caractere/'+car);
-        const rsp = String(rst.data.frequencia);
-        setResp(rsp);
+    async function verificar() {
+        const rst = await axios.get(`http://localhost:5000/dia2/freqcaractere/${frase}/${car}`);
+        setResp(rst.data.frequencia);
     }
 
     return (
@@ -20,8 +19,8 @@ export default function Frequencia() {
                 <div>
                     Frase: <input type='text' value={frase} onChange={e => setFrase(e.target.value)} /> {frase} <br/>
                     Caractere: <input value={car} onChange={e => setCar(e.target.value)} /> {car} <br/>
-                    <button onClick={Verificar}>Verificar</button>
-                    {resp}
+                    <button onClick={verificar}>Verificar</button> <br/>
+                    Esse caractere se repete {resp} vezes
                 </div>
             </div>
 
