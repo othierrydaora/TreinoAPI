@@ -1,4 +1,4 @@
-export default function Index() {
+export default function Frequencia() {
     return (
         <main>
             <h1>Frequencia</h1>

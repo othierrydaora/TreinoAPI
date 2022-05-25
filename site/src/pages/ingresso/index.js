@@ -2,7 +2,7 @@ import axios from "axios";
 
 import { ueseState, useState } from "react"
 
-export default function Index() {
+export default function Ingresso() {
     const [qtdInteiras, setQtdInteiras] = useState(0);
     const [qtdMeias, setQtdMeias] = useState(0);
     const [Dia, setDia] = useState('');

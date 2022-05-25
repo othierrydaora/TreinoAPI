@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useState } from "react"
 
-export default function Index() {
+export default function Primaria() {
     const [cor,setCor] = useState('');
     const [resposta, setResposta] = useState('');
 
