@@ -10,6 +10,8 @@ export default function Home() {
                 <li><Link to='/frequencia'>Frequencia</Link></li>
                 <li><Link to='/ingresso'>Ingresso</Link></li>
                 <li><Link to='/maiorNumero'>Maior Número</Link></li>
+                <li><Link to='/soma'>Somar</Link></li>
+                <li><Link to='/dobro'>Dobro de um Número</Link></li>
             </ul>
 
 
