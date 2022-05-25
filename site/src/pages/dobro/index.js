@@ -1,6 +1,7 @@
 import axios from "axios";
+import { useState } from "react";
 
-export default function Double () {
+export default function Dobro() {
 
     const [numba, setNumba] = useState(0);
     const [resultado, setResultado] = useState(0);
@@ -21,7 +22,7 @@ return (
         </div>
 
         <div>
-            <button onClick={Somar}>Verificar</button>
+            <button onClick={Dobro}>Verificar</button>
         </div>
         
         <div>
