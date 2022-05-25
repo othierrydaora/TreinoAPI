@@ -4,6 +4,7 @@ import Primaria from './pages/corPrimaria';
 import Frequencia from './pages/frequencia';
 import MaiorNumero from './pages/maiorNumero';
 import Soma from './pages/Soma';
+import Dobro from './pages/dobro';
 
 
 export default function Rotas() {
