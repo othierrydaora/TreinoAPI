@@ -28,6 +28,8 @@ export function ingresso(inteiras, meias, dia, origem) {
 
 export function maior(numbas) {
     let counter = 0;
+    numbas.split(' ');
+    for (let item of numbas) item = Number(item)
     for (let i = 0; i < numbas.length; i++) {
         if (numbas[i] > counter) counter = numbas[i];
     }

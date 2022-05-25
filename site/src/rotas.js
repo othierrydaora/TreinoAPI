@@ -14,7 +14,7 @@ export default function Rotas() {
                 <Route path='/' element={ <Home/> } />
                 <Route path='/corPrimaria' element={ <Primaria/> } />
                 <Route path='/frequencia' element={ <Frequencia/> } />
-                <Route path='/ingresso' element={ <MaiorNumero/> } />
+                <Route path='/maiorNumero' element={ <MaiorNumero/> } />
                 <Route path='/soma' element={ <Soma/> } />
                 <Route path='/dobro' element={ <Dobro/> } />
             </Routes>

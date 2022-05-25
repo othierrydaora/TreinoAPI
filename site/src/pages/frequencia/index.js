@@ -3,9 +3,9 @@ import { useState } from "react";
 
 
 export default function Frequencia() {
-    const { frase, setFrase } = useState();
-    const { car, setCar } = useState();
-    const { resp, setResp } = useState();
+    const [ frase, setFrase ] = useState('');
+    const [ car, setCar ] = useState('');
+    const [ resp, setResp ] = useState('');
 
     async function Verificar() {
         const rst = await axios.get('http://localhost:5000/dia2/freqcaractere/:texto/'+frase+'/:caractere/'+car);
@@ -18,9 +18,9 @@ export default function Frequencia() {
             <h1>Frequência</h1>
             <div>
                 <div>
-                    Frase: <input value={frase} onChange={e => setFrase(e.target.value)} /> <br/>
-                    Caractere: <input value={car} onChange={e => setCar(e.target.value)} /> <br/>
-                    <button onClick={e => Verificar()}>Verificar</button>
+                    Frase: <input value={frase} onChange={e => setFrase(e.target.value)} /> {frase} <br/>
+                    Caractere: <input value={car} onChange={e => setCar(e.target.value)} /> {car} <br/>
+                    <button onClick={Verificar}>Verificar</button>
                     {resp}
                 </div>
             </div>
