@@ -17,6 +17,8 @@ export default function Rotas() {
                 <Route path='/maiorNumero' element={ <MaiorNumero/> } />
                 <Route path='/soma' element={ <Soma/> } />
                 <Route path='/dobro' element={ <Dobro/> } />
+                <Route path='/temperatura' element={ <Temperatura/> } />
+                <Route path='/media' element={ <Media/> } />
             </Routes>
         </BrowserRouter>
     );
