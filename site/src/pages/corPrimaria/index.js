@@ -27,7 +27,7 @@ export default function Primaria() {
                 <button onClick={corPrimariaouNao}>Verificar</button>
             </div>
             <div>
-                E cor Primária?
+                É cor Primária?
             </div>
         </main>
     )
