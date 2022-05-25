@@ -5,6 +5,9 @@ import Frequencia from './pages/frequencia';
 import MaiorNumero from './pages/maiorNumero';
 import Soma from './pages/Soma';
 import Dobro from './pages/dobro';
+import Temperatura from './pages/temperatura';
+import Media from './pages/media';
+import Ingresso from './pages/ingresso';
 
 
 export default function Rotas() {
@@ -19,6 +22,7 @@ export default function Rotas() {
                 <Route path='/dobro' element={ <Dobro/> } />
                 <Route path='/temperatura' element={ <Temperatura/> } />
                 <Route path='/media' element={ <Media/> } />
+                <Route path='/ingresso' element={ <Ingresso/> } />
             </Routes>
         </BrowserRouter>
     );

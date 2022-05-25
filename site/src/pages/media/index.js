@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { useState, useState } from "react"
+import { useState } from "react"
 
 export default function Media() {
     const [numUm, setNumUm] = useState(0);

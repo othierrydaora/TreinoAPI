@@ -18,7 +18,7 @@ export default function Frequencia() {
             <h1>Frequência</h1>
             <div>
                 <div>
-                    Frase: <input value={frase} onChange={e => setFrase(e.target.value)} /> {frase} <br/>
+                    Frase: <input type='text' value={frase} onChange={e => setFrase(e.target.value)} /> {frase} <br/>
                     Caractere: <input value={car} onChange={e => setCar(e.target.value)} /> {car} <br/>
                     <button onClick={Verificar}>Verificar</button>
                     {resp}

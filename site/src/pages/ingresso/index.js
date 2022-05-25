@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { useState, useState } from "react"
+import { useState } from "react"
 
 export default function Ingresso() {
     const [qtdInteiras, setQtdInteiras] = useState(0);
@@ -27,15 +27,15 @@ export default function Ingresso() {
         </div>
 
         <div>
-            Qtd.Inteiras: <input type='text' value={qtdMeias} onChange={e => setQtdMeias(Number(e.target.value))} />
+            Qtd.Meias: <input type='text' value={qtdMeias} onChange={e => setQtdMeias(Number(e.target.value))} />
         </div>
 
         <div>
-            Qtd.Inteiras: <input type='text' value={Dia} onChange={e => setDia(Number(e.target.value))} />
+            Dia: <input type='text' value={Dia} onChange={e => setDia(Number(e.target.value))} />
         </div>
 
         <div>
-            Qtd.Inteiras: <input type='text' value={Origem} onChange={e => setOrigem(Number(e.target.value))} />
+            Origem: <input type='text' value={Origem} onChange={e => setOrigem(Number(e.target.value))} />
         </div>
 
         <div>
